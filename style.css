@@ -9,3 +9,7 @@ footer{
 .white {
     color: White;
 }
+
+.hero {
+    background-image: url("images/hero.jpg");
+}
