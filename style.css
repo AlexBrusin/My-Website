@@ -1,15 +1,15 @@
 p,h1,h3,h4{
-    color: rgb(1, 161, 253);
+    color: darkgray;
 }
 
 footer{
     background-color: darkred
 }
 
-.white {
+.White {
     color: White;
 }
 
-.hero {
+.Hero {
     background-image: url("images/hero.jpg");
 }
