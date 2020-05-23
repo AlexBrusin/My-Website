@@ -23,3 +23,7 @@ p,ul{
 h1,h3,h4{
     font-family: 'PT Sans Narrow', sans-serif;
 }
+
+h1,h3,h4{
+    text-align: center;
+}
