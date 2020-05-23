@@ -1,4 +1,6 @@
-p,h1,h3,h4{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=PT+Sans+Narrow&display=swap');
+
+p,h1,h3,h4,ul{
     color: black;
 }
 
@@ -12,4 +14,12 @@ footer{
 
 .Hero {
     background-image: url("images/hero.jpg");
+}
+
+p,ul{
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h3,h4{
+    font-family: 'PT Sans Narrow', sans-serif;
 }
