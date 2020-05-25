@@ -6,8 +6,11 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <nav>
+        <nav class="flex_nav">
             <a href="#about">About Me</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#favorite">Favorite Actors</a>
+            <a href="#song">Favorite Song</a>
         </nav>
         <section class="Hero">
             <h1 class="White"> Alexandru Marco Brusin</h1>
@@ -16,8 +19,11 @@
         </section>
         <section id="about">
             <h3>About Me:</h3>
-            <p>Hi! My name is Alex, I'm 15 years old and living in Sweden. I am interested in technology, videogames and cars. I go to <a href="https://kista.engelska.se/">This School</a></p>
-        </section>
+            <div class="div_row">
+                <img src="Images/Me.jpg" alt="Me in a box with e nerf gun" width="200">
+                <p class="flex_par">Hi! My name is Alex, I'm 15 years old and living in Sweden. I am interested in technology, videogames and cars. I go to <a href="https://kista.engelska.se/">This School</a></p>
+            </div>
+            </section>
         <section id="hobbies">
             <h4>My Hobbies:</h4>
             <ul>
@@ -30,13 +36,15 @@
         </section>
         <section id="favorite">
             <h4>My Favorite Actors:</h4>
-            <div>
-                <img src="Images/Robert.jpg" alt="Robert Downey Jr" width="200">
-                <p>Robert Downey Jr</p>
-            </div>
-            <div>
-                <img src="Images/Tom.jpg" alt="Tom Holland" width="200">
-                <p>Tom Holland</p>
+            <div class="flex_column">
+                <div>
+                    <img src="Images/Robert.jpg" alt="Robert Downey Jr" width="200">
+                    <p>Robert Downey Jr</p>
+                </div>
+                <div>
+                    <img src="Images/Tom.jpg" alt="Tom Holland" width="200">
+                    <p>Tom Holland</p>
+                </div>  
             </div>    
         </section>
         <section id="song">
