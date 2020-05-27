@@ -62,4 +62,52 @@ h1,h3,h4{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 20px;
+}
+
+body{
+    margin:0px;
+}
+
+.hero-title{
+    padding: 100px;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text_1{
+    margin:20px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+a:link {
+    color: indigo;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:focus {
+    color: white;
+    background-color: indigo;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    color: #404040;
+    background-color: white;
 }
